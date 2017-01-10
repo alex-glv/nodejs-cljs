@@ -1,5 +1,6 @@
 (ns nodejs-cljs.core
   (:require [cljs.nodejs :as nodejs]
+            [cljsjs.react]
             [cljsjs.react.dom]))
 
 (nodejs/enable-util-print!)
